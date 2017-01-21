@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=1.0.53
+ENV VERSION=0.8.43
 
 RUN gem install jenkinsutil --version ${VERSION} --no-format-exec
 
